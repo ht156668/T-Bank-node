@@ -21,7 +21,10 @@ app.get('/', (req, res) => {
 //res ist die Antwort de Servers an den Browser
 //send() ist die Anweisung etwas an den Browser zu senden
 //`Hello ...`ist der Wert, der an die Anweisung send()übergeben wird
-	res.send('Hello remote world!\n');
+//	res.send('Hello remote world!\n');
+//das res objekt kann noch mehr als nur ein Zeichenettikette an den Browser zu senden
+//Das res Objekt mit der funktion render () eine HTML DAtei an den Browser senden
+res. render("index.ejs",{});
 });
 //Mit listen() wird der Server angewiesen, auf den  angegebenen Host und 
 // Port zu lauschen.
