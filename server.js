@@ -36,3 +36,5 @@ app.listen(PORT, HOST);
 //Audruck übergeben. Ein Verb mit anschleißenden runden Klammern steht 
 // immer für eine Anweisung etwas zu tun
 console.log(`Running on http://${HOST}:${PORT}`);
+
+require('./uebungen/01-grundlagen');
